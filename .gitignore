@@ -1,6 +1,7 @@
 HELP.md
 .gradle
 build/
+
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
@@ -14,6 +15,7 @@ build/
 .springBeans
 .sts4-cache
 bin/
+
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
@@ -23,6 +25,7 @@ bin/
 *.iml
 *.ipr
 out/
+
 !**/src/main/**/out/
 !**/src/test/**/out/
 
@@ -35,4 +38,11 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Config ###
 application.yml
+application-local.yml
+.env
+
+### Build ###
+*.jar
